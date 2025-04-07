@@ -141,6 +141,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     //   'assets/images/logo.png', // Add your logo image
                     //   height: 120,
                     // ),
+                    // const SizedBox(height: 20),
                     const SizedBox(height: 40),
                     const Text(
                       'Chào mừng trở lại!',
