@@ -44,8 +44,8 @@ class _HomeAdminScreenState extends State<HomeAdminScreen> {
             BottomNavigationBarItem(icon: Icon(Icons.store), label: 'Cửa hàng '),
             BottomNavigationBarItem(icon: Icon(Icons.delivery_dining), label: 'Shipper'),
 
-            BottomNavigationBarItem(icon: Icon(Icons.assessment), label: 'Báo cáo'),
-            BottomNavigationBarItem(icon: Icon(Icons.settings), label: 'Cài đặt'),
+            BottomNavigationBarItem(icon: Icon(Icons.assessment), label: 'Báo cáo '),
+            BottomNavigationBarItem(icon: Icon(Icons.settings), label: 'Cài đặt '),
           ],
           currentIndex: _selectedIndex,
           onTap: _onItemTapped,
