@@ -134,7 +134,8 @@ class StoreDetailPage extends StatelessWidget {
       ),
     );
   }
-
+/// Helper method to build action cards
+/// This method creates a custom card with an icon, title, and tap action.
   Widget _buildActionCard({required IconData icon, required String title, required VoidCallback onTap}) {
     return CustomCard(
       child: ListTile(
