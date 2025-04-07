@@ -90,7 +90,7 @@ class _HomePageState extends State<HomePage> {
             if (isLoading)
               const Center(child: CircularProgressIndicator())
             else if (filteredStores.isEmpty)
-              const Center(child: Text('Không tìm thấy cửa hàng'))
+              const Center(child: Text('Không tìm thấy cửa hàng nào'))
             else
               Expanded(
                 child: ListView.builder(
