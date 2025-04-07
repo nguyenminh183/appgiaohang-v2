@@ -42,7 +42,7 @@ class _HomeAdminScreenState extends State<HomeAdminScreen> {
           items: const [
             BottomNavigationBarItem(icon: Icon(Icons.people), label: 'Người dùng '),
             BottomNavigationBarItem(icon: Icon(Icons.store), label: 'Cửa hàng '),
-            BottomNavigationBarItem(icon: Icon(Icons.delivery_dining), label: 'Shipper'),
+            BottomNavigationBarItem(icon: Icon(Icons.delivery_dining), label: 'Shipper '),
 
             BottomNavigationBarItem(icon: Icon(Icons.assessment), label: 'Báo cáo '),
             BottomNavigationBarItem(icon: Icon(Icons.settings), label: 'Cài đặt '),
