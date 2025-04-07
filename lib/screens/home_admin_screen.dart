@@ -30,18 +30,18 @@ class _HomeAdminScreenState extends State<HomeAdminScreen> {
     const RevenueStatisticsScreen(),
     const SettingsAdminScreen(),
   ];
-
+//đây là trang quản trị của admin, có 5 tab là người dùng, cửa hàng, shipper, báo cáo và cài đặt
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar:const CustomAppBar(title: 'Trang Quản Trị'),
+      appBar:const CustomAppBar(title: 'Trang Quản Trị '),
       body: _pages[_selectedIndex],
       bottomNavigationBar: CustomBottomNavBar(
         child: BottomNavigationBar(
           type: BottomNavigationBarType.fixed,
           items: const [
-            BottomNavigationBarItem(icon: Icon(Icons.people), label: 'Người dùng'),
-            BottomNavigationBarItem(icon: Icon(Icons.store), label: 'Cửa hàng'),
+            BottomNavigationBarItem(icon: Icon(Icons.people), label: 'Người dùng '),
+            BottomNavigationBarItem(icon: Icon(Icons.store), label: 'Cửa hàng '),
             BottomNavigationBarItem(icon: Icon(Icons.delivery_dining), label: 'Shipper'),
 
             BottomNavigationBarItem(icon: Icon(Icons.assessment), label: 'Báo cáo'),
