@@ -114,7 +114,7 @@ class _UserManagementScreenState extends State<UserManagementScreen> {
       }
     }
   }
-
+  /// Update user details
   Future<void> _updateUser(
     int userId,
     String fullName,
