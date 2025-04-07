@@ -87,7 +87,7 @@ class _OrderListPageState extends State<OrderListPage> {
         itemCount: _orders.length,
         itemBuilder: (context, index) {
           final order = _orders[index];
-          // Fix: items is already a List<dynamic>, no need to decode
+          // Fix: items is already a List<dynamic>, no need to decode  
           final items = order['items'] as List<dynamic>;
           
           return Card(
